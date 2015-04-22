@@ -1,9 +1,15 @@
-ï»¿public class Test0422{
+public class Test0422{
 	public static void main(String[] args){
-		System.out.println("20150422é–‹ç™¼æµç¨‹ç·´ç¿’");
+		System.out.println("20150422¶}µo¬yµ{½m²ß");
 		int x=10, y=5;
 		new A().minFunc(x, y);
 		new B().maxFunc(x, y);
 		new C().avgFunc(x, y);
+	}
+}
+
+class C{
+	public void avgFunc( int i, int j ){
+		System.out.println( "¥­§¡ = " + (i+j)/2 );
 	}
 }
