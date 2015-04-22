@@ -9,6 +9,18 @@ public class Test0422{
 }
 
 <<<<<<< HEAD
+class B{
+	public void maxFunc(int x,int y){
+		if(x>y){
+			System.out.println("max:"+x);
+		}
+	
+		if(x<y){
+			System.out.println("max:"+y);
+		}
+	}
+=======
+<<<<<<< HEAD
 
 class A{
 
@@ -29,4 +41,5 @@ class C{
 		System.out.println( "ензб = " + (i+j)/2 );
 	}
 >>>>>>> 155bc6ca3c7a2ca2a924690444a8c284b433fca2
+>>>>>>> develope
 }
