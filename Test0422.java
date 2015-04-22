@@ -8,6 +8,7 @@ public class Test0422{
 	}
 }
 
+<<<<<<< HEAD
 
 class A{
 
@@ -22,4 +23,10 @@ class A{
 			System.out.println(d);
 		}
 	}	
+=======
+class C{
+	public void avgFunc( int i, int j ){
+		System.out.println( "ензб = " + (i+j)/2 );
+	}
+>>>>>>> 155bc6ca3c7a2ca2a924690444a8c284b433fca2
 }
